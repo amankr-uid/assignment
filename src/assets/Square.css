@@ -1,0 +1,30 @@
+.square {
+    display: flex;
+    flex-wrap: wrap;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+  }
+  
+  .cell {
+    flex-basis: calc(100% / 10);
+    height: 0;
+    padding-bottom: calc(100% / 10);
+    background-color: white;
+  }
+  
+  .color-0 {
+    background-color: red;
+  }
+  
+  .color-1 {
+    background-color: skyblue;
+  }
+  
+  .color-2 {
+    background-color: lightblue;
+  }
+  .color-3 {
+    background-color: purple;
+  }
+  
